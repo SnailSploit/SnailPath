@@ -1,2 +1,3 @@
-# SnailPath
-Directory Brutedforce on Steroids
+# Snailpath
+
+See CLI help: `snailpath -h`.

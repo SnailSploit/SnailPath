@@ -1,0 +1,20 @@
+[build-system]
+requires=["setuptools>=69","wheel"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="snailpath"
+version="0.2.0"
+description="Snailpath: smart, low-FP directory & route discovery (async, h2/h3, SPA route miner)"
+readme="README.md"
+requires-python=">=3.9"
+dependencies=["httpx>=0.27.0","anyio>=4.4.0"]
+
+[project.scripts]
+snailpath="snailpath.cli:main"
+
+[project.optional-dependencies]
+h3=["aioquic>=0.9.25"]
+
+[tool.setuptools.packages.find]
+where=["src"]

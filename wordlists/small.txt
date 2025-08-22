@@ -1,0 +1,7 @@
+/
+admin
+login
+api
+exists1
+exists2
+soft404/test
